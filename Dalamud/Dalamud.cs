@@ -129,7 +129,7 @@ namespace Dalamud {
                     }
                     catch (Exception e)
                     {
-                        Log.Information(e, "Could not init interface.");
+                        Log.Information(e, "Could not initialize interface.");
                     }
                 }
 
