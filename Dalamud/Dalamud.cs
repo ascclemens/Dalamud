@@ -137,7 +137,7 @@ namespace Dalamud {
                 try {
                     await Data.Initialize(this.baseDirectory);
                 } catch (Exception e) {
-                    Log.Error(e, "Could not initialize DataManager.");
+                    Log.Error(e, "Could not init DataManager.");
                     Unload();
                     return;
                 }
