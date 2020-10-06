@@ -114,7 +114,6 @@ namespace Dalamud.Game {
                 this.dalamud.Configuration.BadWords.Any(x => !string.IsNullOrEmpty(x) && textVal.Contains(x)))
             {
                 // This seems to be in the user block list - let's not show it
-                Log.Debug("Blocklist triggered");
                 isHandled = true;
                 return;
             }
