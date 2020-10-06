@@ -104,7 +104,7 @@ namespace Dalamud.Game {
             if (matched)
             {
                 // This seems to be a RMT ad - let's not show it
-                Log.Debug("Handled RMT ad: " + message.TextValue);
+                Log.Debug("Handled RMT: " + message.TextValue);
                 isHandled = true;
                 return;
             }
